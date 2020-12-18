@@ -9,6 +9,5 @@ class ExampleTest {
     void demo() {
         Example example = new Example();
         assertThat(example.test()).isEqualTo(true);
-
     }
 }
